@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "etag",
+  "nextPageToken": "CAEQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 2,
+    "resultsPerPage": 2
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "etag1",
+      "id": {"kind": "youtube#video", "videoId": "id1"},
+      "snippet": {"title": "First Video"}
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "etag2",
+      "id": {"kind": "youtube#video", "videoId": "id2"},
+      "snippet": {"title": "Second Video"}
+    }
+  ]
+}
